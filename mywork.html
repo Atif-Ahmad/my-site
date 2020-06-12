@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<div class="header">
+  <h1>Atif's Site</h1>
+  <h4>A one stop shop to know all about me!</h4>
+</div>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a class="active"  href="mywork.html">MY Work</a>
+  <a href="interests.html">Interests</a>
+  <a href="aboutme.html">About ME</a>
+</div>
+
+
+
+<div class="row">
+  <div class="side">
+    <h3><a href="#" onclick="showTopic('github');return false;">Github</a></h3>
+    <h3><a href="#" onclick="showTopic('java');return false;">Java</a></h3>
+    <h3><a href="#" onclick="showTopic('website');return false;">Web Pages</a></h3>
+  </div>
+
+  <div class="main" id="main">
+
+    <div id="github" >
+    
+      <P>This is my github site <a  href="https://github.com/Atif-Ahmad"> <img src="images/Octocat.png"
+        style="width:42px;height:42px;border:0" /></a></P>
+      <p>I upload all my coding exercises here. They have my BMI calculator and some java classes. I will be uploading more in the future.</p>
+
+    </div>
+    <div id="java">
+    
+      <P>I have been going through various tutorials on Java and uploading the code <a href="https://github.com/Atif-Ahmad/LearnJava"> here</a>. I have code on Arrays, ,Loops, Strings. </P>
+        <h3>arrays</h3>
+        <ul>
+          <li>Find highest number in array</li>
+          <li>Find average of all numbes in array</li>
+          <li>Find median of numbes in array</li>
+        </ul>
+        <h3>String Manipulations</h3>
+        <ul>
+          <li>print all characters in a string</li>
+          <li>print a substing</li>
+          <li>reverse a string</li>
+          <li>print last word of a sentence</li>
+        </ul>
+        
+
+    </div>
+
+    <div id="web-pages">
+
+      <p>Some of my projects are</p>
+      <li><a href = "https://sites.google.com/view/ftc-chocolate-cyborgs-14502/home">Chocolate Cyborgs</a></li>
+      <li><a href = "http://hcj-practice.atwebpages.com/bmi-calculator">BMI Calculator</a></li>
+      <li><a href = "basic-calc/index.html">Basic Calculator</a></li>
+    </div> 
+
+  
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="styles/styles.css">
+<script src = mywork.js></script>
+</body>
+</html>
